@@ -6,4 +6,4 @@
 Updates a STARFACE module and triggers a reload to memory.  
 
 ## Installation and Usage
-See README in folder [`src/module-reloader`]() of this repo.
+See README in folder [`src/module-reloader`](/src/module-reloader) of this repo.

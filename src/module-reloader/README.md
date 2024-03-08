@@ -4,7 +4,7 @@
 
 ## Description
 Updates a STARFACE module and triggers a reload to memory.  
-You can use this standalone with your own scripts or with the `powershell-module-deploy` script of this repo (see [`src/powershell-module-deploy`]() folder).
+You can use this standalone with your own scripts or with the `powershell-module-deploy` script of this repo (see [`src/powershell-module-deploy`](/src/powershell-module-deploy) folder).
 
 ## Table of Contents
 - [STARFACE moduleReloader module](#starface-modulereloader-module)
@@ -20,7 +20,7 @@ You can use this standalone with your own scripts or with the `powershell-module
 
 
 ## Installation
-Manually import the `1QBmoduleReloader_v...sfm` file from [`bin/module-reloader`]() folder to your STARFACE server and create a module instance (configuration) of it. Name it as you like but note the instance name, it is needed later.
+Manually import the `1QBmoduleReloader_v...sfm` file from [`bin/module-reloader`](/bin/module-reloader) folder to your STARFACE server and create a module instance (configuration) of it. Name it as you like but note the instance name, it is needed later.
 
 ## Usage
 As the module uses the xml-rpc interface of the STARFACE server you have to generate the auth string first. Therefore you need the loginID and the password of a STARFACE user and a hashing tool, e.g. https://gchq.github.io/CyberChef/#recipe=SHA2('512',64,160).  

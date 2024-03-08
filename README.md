@@ -8,7 +8,7 @@ A collection of STARFACE modules and helpers.
 
 ## Installation and usage
 
-See subfolders in [`src`](src) and [`bin`](bin) folders.
+See subfolders in [`src`](/src) and [`bin`](/bin) folders.
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
