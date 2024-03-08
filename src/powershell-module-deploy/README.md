@@ -3,7 +3,7 @@
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 
 ## Description
-Deploys a module to a starface server and reloads the module via `moduleReloader` module (found in this repo in `src\module-reloader` amd `bin\module-reloader` folders).
+Deploys a module to a starface server and reloads the module via `moduleReloader` module (found in this repo in [`src/module-reloader`]() and [`bin/module-reloader`]() folders).
 
 ## Table of Contents
 - [Powershell STARFACE Module Deploy Script](#powershell-starface-module-deploy-script)
