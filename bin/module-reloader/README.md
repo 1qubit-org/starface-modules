@@ -23,10 +23,10 @@ You can use this standalone with your own scripts or with the `powershell-module
 Manually import the `1QBmoduleReloader_v...sfm` file to your STARFACE server and create a module instance (configuration) of it. Name it as you like but note the instance name, we need it later.
 
 ## Usage
-As the module uses the xml-rpc interface of the STARFACE server you have to generate the auth string first. Therefor you need the loginID and the password of a STARFACE user and a hashing tool, e.g. https://gchq.github.io/CyberChef/#recipe=SHA2('512',64,160).  
+As the module uses the xml-rpc interface of the STARFACE server you have to generate the auth string first. Therefore, you need the loginID and the password of a STARFACE user and a hashing tool, e.g. https://gchq.github.io/CyberChef/#recipe=SHA2('512',64,160).  
 
 ### Generating the auth hash
-First you hash the password, than you take the hash of the password and prefix it with the loginID and an asterisk and hash this string again.
+First you hash the password, then you take the hash of the password and prefix it with the loginID and an asterisk and hash this string again.
 
 1. SHA512(password)
 2. SHA512(loginID*passwordHash)
@@ -43,7 +43,7 @@ The body / payload of the request has to have the xml structure below.
 The `methodName` tag is the RPC entrypoint name, which is the name of the moduleReloader instance you created before followed by `.reload`, e.g. `1qb.moduleReloader.reload`.  
 
 There are two parameters to be set. The first is `paramModuleID` which has to be set to the id value of the module which should be reloaded by the moduleReloader module (this module).  
-The second parameter `paramModuleVersion` is optional. By default (`-1`) it increments the module version to the next higher number (e.g. from 10 to 11). You can pass an any `integer` you like to set your own version number.
+The second parameter `paramModuleVersion` is optional. By default (`-1`) it increments the module version to the next higher number (e.g. from 10 to 11). You can pass any `integer` you like to set your own version number.
 
 
 ```
