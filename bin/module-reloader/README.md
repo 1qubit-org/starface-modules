@@ -1,0 +1,9 @@
+# STARFACE moduleReloader module
+
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
+
+## Description
+Updates a STARFACE module and triggers a reload to memory.  
+
+## Installation and Usage
+See README in folder [`src/module-reloader`](/src/module-reloader) of this repo.

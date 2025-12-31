@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<module lastChangedTime="1709345290233" moduleType="EXTENDED" createTime="1709345217499" id="1f410088-4882-4403-a7ea-c594a9be70ca" name="1QB.moduleReloader" specVersion="5" vendor="1 Qubit - J.Suing" version="24030722">
+    <description></description>
+    <descriptionURL></descriptionURL>
+    <disabled>false</disabled>
+    <inputVars/>
+    <outputVars/>
+    <resources/>
+    <children>
+        <function visibility="Private" createTime="1709345253418" id="15247250-d762-4b3e-86ae-f59e173fcc22" name="main" specVersion="0" vendor="" version="0">
+            <description></description>
+            <descriptionURL></descriptionURL>
+            <disabled>false</disabled>
+            <inputVars>
+                <variable id="ed71715c-bcaf-4c65-8875-db132322af3d" name="moduleID" type="STRING" valueByReference="false" valueByReferenceAllowed="true" valueByValueAllowed="true" visible="true">
+                    <description></description>
+                    <value></value>
+                </variable>
+            </inputVars>
+            <outputVars/>
+            <resources/>
+            <children/>
+        </function>
+    </children>
+    <createdWith>STARFACE 8.1.2.2</createdWith>
+    <defaultLocale>en</defaultLocale>
+    <editable>true</editable>
+    <entryPoints>
+        <rpcEntryPoint id="906acbf9-d6e2-4352-8b1f-60536397e7d9" name="reload">
+            <functionReference targetDomainId="1f410088-4882-4403-a7ea-c594a9be70ca" targetId="15247250-d762-4b3e-86ae-f59e173fcc22" targetName="main" targetVersion="0"/>
+            <type>XMLRPC_auth</type>
+        </rpcEntryPoint>
+    </entryPoints>
+    <noLicenseId>25ace2746092c77f99488ccbff0c9682746e4508</noLicenseId>
+    <shortDescription></shortDescription>
+    <writeHash>f2bdeccbef375556e9877081206df2a6b942517b</writeHash>
+</module>
